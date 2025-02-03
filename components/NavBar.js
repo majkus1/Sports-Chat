@@ -64,7 +64,11 @@ export default function NavBar({ onLanguageChange }) {
           <img
             src="/img/cross.png"
             className="menu-icon"
-            onClick={() => setMobileMenuOpen(false)}
+            onClick={() => {
+              setMobileMenuOpen(false);
+              setLoginModalOpen(false);
+              setRegisterModalOpen(false);
+            }}
           />
         ) : (
           <img
