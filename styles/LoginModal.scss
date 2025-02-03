@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.panellogreg {
+	display: flex;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f8ededae;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	h2 {
+		padding: 15px;
+	}
+}
+
+.modal {
+	background: #173B45;
+	padding: 20px;
+	border-radius: 10px;
+	width: 325px;
+	max-width: 90%;
+	border: 1px solid black;
+	color: #F8EDED;
+}
+
+label {
+	margin: 11px;
+}
+
+input {
+	margin: 5px;
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+}
+
+.btn-to-login {
+	display: flex;
+	align-items: center;
+	margin: 7px;
+	height: 45px;
+	padding: 7px;
+	margin-top: 20px;
+	background-color: #173B45;
+	color: #F8EDED;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 0px 1px #F8EDED;
+	-moz-box-shadow: 2px 2px 0px 1px #F8EDED;
+	box-shadow: 2px 2px 0px 1px #F8EDED;
+	border: 2px solid #F8EDED;
+	transition: all .4s;
+	font-size: 16px !important;
+}
+
+.btn-to-login:hover {
+	background-color: #F8EDED;
+	color: #173B45;
+	-webkit-box-shadow: 2px 2px 0px 1px #173B45;
+	-moz-box-shadow: 2px 2px 0px 1px #173B45;
+	box-shadow: 2px 2px 0px 1px #173B45;
+}
+
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f8ededae;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.modal-register {
+	background: #173B45;
+	padding: 20px;
+	border-radius: 10px;
+	width: 325px;
+	max-width: 90%;
+	border: 1px solid black;
+	color: #F8EDED;
+
+	h2 {
+		padding: 15px;
+	}
+}
+
+.btn-to-reg {
+	display: flex;
+	align-items: center;
+	margin: 7px;
+	height: 45px;
+	padding: 7px;
+	margin-top: 20px;
+	background-color: #173B45;
+	color: #F8EDED;
+	font-weight: 700;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 0px 1px #F8EDED;
+	-moz-box-shadow: 2px 2px 0px 1px #F8EDED;
+	box-shadow: 2px 2px 0px 1px #F8EDED;
+	border: 2px solid #F8EDED;
+	transition: all .4s;
+	font-size: 16px !important;
+}
+
+.btn-to-reg:hover {
+	background-color: #F8EDED;
+	color: #173B45;
+	-webkit-box-shadow: 2px 2px 0px 1px #173B45;
+	-moz-box-shadow: 2px 2px 0px 1px #173B45;
+	box-shadow: 2px 2px 0px 1px #173B45;
+}

@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+body {
+  position: relative;
+  margin: 0 auto;
+  background-color: #f5f5dc;
+  max-width: 1100px;
+}
+
+.head-navbar {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffb000;
+  color: #004225;
+  height: 100px;
+}
+.head-navbar h1 {
+  font-size: 34px !important;
+}
+.head-navbar p {
+  font-size: 20px !important;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+}
+.panel .panel-login {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.you-log {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  background-color: #004225;
+  color: #f5f5dc;
+  padding: 10px;
+}
+
+.btn-login,
+.btn-reg,
+.log-out-btn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 3px solid #ffcf9d;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  box-shadow: 2px 2px 0px 1px #ffb000;
+  cursor: pointer;
+}
+
+.panel-button {
+  display: none;
+}
+
+.history-chat {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px #000000;
+}
+.history-chat ul li {
+  list-style: none;
+  cursor: pointer;
+}
+.history-chat h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.box-search {
+  padding: 10px;
+  box-shadow: 0px 0px 2px #000000;
+}
+.box-search ul li {
+  list-style: none;
+}
+.box-search input {
+  width: 140px;
+}
+.box-search .search-btn {
+  padding: 5px;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 3px solid #ffcf9d;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  box-shadow: 2px 2px 0px 1px #ffb000;
+  cursor: pointer;
+}
+
+.content-league {
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.content-league h1 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.content-league h1 .icon-sport {
+  width: 27px;
+  margin-right: 5px;
+}
+.content-league .choose-time {
+  display: flex;
+  gap: 20px;
+}
+.content-league .choose-time .pre-match-p {
+  margin-top: 15px;
+  color: black;
+  font-size: 17px;
+  font-style: italic;
+  text-decoration: none;
+  cursor: pointer;
+}
+.content-league .choose-time .active-section {
+  text-decoration: underline;
+}
+.content-league .chat-content {
+  box-shadow: 0px 0px 2px #000000;
+  margin-top: 12px;
+  padding: 20px;
+  cursor: pointer;
+}
+.content-league .chat-content .chat-public {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffb000;
+  color: #004225;
+}
+.content-league .chat-content .match-name {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.content-league .chat-content .match-name span {
+  font-size: 12px;
+}
+.content-league .send-public-chat {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.content-league .send-public-chat input {
+  padding: 10px;
+  border: 2px solid #004225;
+}
+.content-league .send-public-chat button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  border: 2px solid #004225;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 1px #004225;
+  font-weight: 700;
+}
+.content-league .send-public-chat button:hover {
+  background-color: #ffcf9d;
+}
+.content-league div .league-header {
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.must-be-login {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.content .sport-category {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 2px #000000;
+  padding: 7px;
+  cursor: pointer;
+}
+.content .sport-category .sport-name {
+  display: flex;
+  align-items: center;
+}
+.content .sport-category .sport-name .icon-sport {
+  width: 27px;
+  margin-right: 5px;
+}
+.content .sport-category .country-league {
+  margin: 12px;
+  margin-left: 20px;
+}
+.content .sport-category .country-league li {
+  display: flex;
+  align-items: center;
+}
+.content .sport-category .country-league li .icon-country {
+  margin-right: 5px;
+  width: 27px;
+}
+.content .sport-category .country-league li a {
+  text-decoration: none;
+  color: black;
+}
+
+.messages-container {
+  max-height: 450px;
+  overflow-y: auto;
+}
+.messages-container .message-one {
+  padding: 2px;
+}
+
+.private-content-chat {
+  background-color: #ffb000;
+  padding: 20px;
+}
+.private-content-chat .send-public-chat {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.private-content-chat .send-public-chat input {
+  padding: 10px;
+  border: 2px solid #004225;
+}
+.private-content-chat .send-public-chat button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px;
+  border: 2px solid #004225;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px 1px #004225;
+  font-weight: 700;
+}
+.private-content-chat .send-public-chat button:hover {
+  background-color: #ffcf9d;
+}
+
+.sport-name a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.search-input {
+  margin-top: 20px;
+  margin-left: -4px;
+  min-width: 250px;
+}
+
+@media (min-width: 370px) {
+  .panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .panel .panel-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .panel-button {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    border: 3px solid #ffcf9d;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    box-shadow: 2px 2px 0px 1px #ffb000;
+    cursor: pointer;
+  }
+}
+@media (min-width: 900px) {
+  .panel {
+    position: absolute;
+    right: 0;
+    width: 300px;
+  }
+  .panel {
+    align-items: end;
+  }
+  .content-league {
+    margin-right: 290px;
+  }
+  .content {
+    align-items: start;
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=All.css.map */

@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.panellogreg {
+  display: flex;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 220, 0.6509803922);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.overlay h2 {
+  padding: 5px;
+}
+
+.modal {
+  background: #f5f5dc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  max-width: 90%;
+  border: 1px solid black;
+}
+
+label {
+  margin: 11px;
+}
+
+input {
+  margin: 5px;
+  padding: 7px;
+}
+
+.btn-to-login {
+  display: flex;
+  align-items: center;
+  margin: 7px;
+  height: 45px;
+  padding: 7px;
+  background-color: #ffb000;
+  color: #004225;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(245, 245, 220, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.modal-register {
+  background: #f5f5dc;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.btn-to-reg {
+  display: flex;
+  align-items: center;
+  margin: 7px;
+  height: 45px;
+  padding: 7px;
+  background-color: #ffb000;
+  color: #004225;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=LoginModal.css.map */
